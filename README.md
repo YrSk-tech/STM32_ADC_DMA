@@ -1,5 +1,8 @@
 # STM32_ADC_DMA
 
+This application employs an Analog-to-Digital Converter (ADC) to periodically sample data from a potentiometer.
+Also I am using direct memory access (DMA) controller to store data in memory without using CPU (Cortex M4).
+
 ## ADC configuration
 ![image](https://github.com/user-attachments/assets/b33f8061-e622-4b4c-b959-dc0133198405)
 
@@ -14,6 +17,7 @@ We are using APB2 peripheral clock which is 84 MHZ
 ![image](https://github.com/user-attachments/assets/64962dea-a1b0-4177-bbe5-faf81dae8a69)
 
 ## Reading data from potentiometer in debug mode 
+conversionFinished 
 ![image](https://github.com/user-attachments/assets/86fc8c24-295b-4cbc-be65-b95779324cc8)
 
 
