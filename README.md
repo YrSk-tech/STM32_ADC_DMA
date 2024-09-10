@@ -17,7 +17,9 @@ We are using APB2 peripheral clock which is 84 MHZ
 ![image](https://github.com/user-attachments/assets/64962dea-a1b0-4177-bbe5-faf81dae8a69)
 
 ## Reading data from potentiometer in debug mode 
-conversionFinished 
+conversionFinished instance is used to check amount of task that has been done 
+errorADC instance is used to check amount of errors 
+ 
 ![image](https://github.com/user-attachments/assets/86fc8c24-295b-4cbc-be65-b95779324cc8)
 
 
